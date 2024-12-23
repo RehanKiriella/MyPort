@@ -260,10 +260,10 @@
           Feel free to contact me.  
 
         </div>
-        <div>
-        <h2> EMAIL </h2>
-        <p>rehankiriella2@gmail.com</p>
-        <h2> CALLS </h2> 
+        <div >
+        <h2 style="color: rgb(103, 81, 246);"> EMAIL </h2>
+        <p>rehankiriella2@gmail.com</p> <br>
+        <h2 style="color: rgb(103, 81, 246);"> CALLS </h2> 
         <p>(+94) 70 251 3000</p><br>
       
         <br>
@@ -272,10 +272,23 @@
     </section>
     <footer style="color: rgb(177, 81, 246);">
     
-      <p><center>Copyright &copy; 2024 | Made with 🌟 by me </center></p>
+      <p><center>Copyright &copy; 2024 | Made with 🌟 by RK </center></p>
       
       </div>
     </footer>
   </main>
 </body>
+<script>
+   // Create the custom cursor element
+   const customCursor = document.createElement("div");
+    customCursor.classList.add("custom-cursor");
+    document.body.appendChild(customCursor);
+
+    // Update the cursor position on mousemove
+    document.addEventListener("mousemove", (e) => {
+      customCursor.style.left = `${e.pageX - customCursor.offsetWidth / 2}px`; // Center the cursor
+      customCursor.style.top = `${e.pageY - customCursor.offsetHeight / 2}px`;  
+    });
+
+</script>
 </html>
