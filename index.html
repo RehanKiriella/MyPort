@@ -283,16 +283,7 @@
   </main>
 </body>
 <script>
-   // Create the custom cursor element
-   const customCursor = document.createElement("div");
-    customCursor.classList.add("custom-cursor");
-    document.body.appendChild(customCursor);
-
-    // Update the cursor position on mousemove
-    document.addEventListener("mousemove", (e) => {
-      customCursor.style.left = `${e.pageX - customCursor.offsetWidth / 2}px`; // Center the cursor
-      customCursor.style.top = `${e.pageY - customCursor.offsetHeight / 2}px`;  
-    });
+  
 
 </script>
 </html>
